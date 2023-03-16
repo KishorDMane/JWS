@@ -1,0 +1,21 @@
+#container{
+    display: grid;
+    gap: 20px;
+}
+
+.cart{
+    width: 100%;
+   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+}
+
+
+.minicart{
+    width: 50%;
+    
+}
+.cart>img{
+    width: 50%;
+
+}

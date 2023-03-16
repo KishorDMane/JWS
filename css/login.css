@@ -1,0 +1,108 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  #main-container{
+    display: flex;
+  }
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Specific styles for signup form */
+  
+  #signup-form {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #signup-form input[type="submit"] {
+    margin-top: 30px;
+  }
+  
+  /* Specific styles for login form */
+  
+  #login-form {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #login-form input[type="submit"] {
+    margin-top: 30px;
+  }
+  
+
+#toggebtn{
+display: flex;
+
+gap: 10px;
+
+}
+#toggebtn>h1{
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px; */
+
+}
+#signup-form{
+  
+  display: grid;
+  
+}
+#login-form{
+  display: none;
+}
+#signup-hedding{
+  background-color: rgb(129, 88, 88);
+}
