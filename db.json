@@ -18,20 +18,17 @@
     "password": "123456789"
   },
   "signup": [
-    {
-      "id": 1,
-      "name": "admin",
-      "password": "123456789"
-    },
+    
     {
       "email": "abc@gmail.com",
-      "name": "kishor",
+      "name": "admin",
       "password": "Kish@123",
-      "id": 2
+      "id": 1
     }
   ],
   "hotels": [
     {
+      "id": 1,
       "category": "Family",
       "image_url": "https://www.acaciahotelsmanila.com/wp-content/uploads/2020/09/room-deluxe_70df34c103b85ce7b2b5ff918ab8cf72.jpg",
       "type_of_room": "AC",
@@ -42,6 +39,7 @@
       "booked": false
     },
     {
+      "id": 2,
       "category": "Family",
       "image_url": "https://www.acaciahotelsmanila.com/wp-content/uploads/2020/09/room-deluxe_70df34c103b85ce7b2b5ff918ab8cf72.jpg",
       "type_of_room": "AC",
@@ -50,6 +48,17 @@
       "capacity": "3",
       "cost": "4000",
       "booked": false
+    },
+    {
+      "category": "fun",
+      "image_url": "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+      "type_of_room": "ac",
+      "bed_type": "larg",
+      "no_of_persons": "2",
+      "capacity": "3",
+      "cost": "1000",
+      "booked": false,
+      "id": 3
     }
   ]
 }
